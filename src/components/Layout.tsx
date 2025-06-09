@@ -31,7 +31,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           <div className="flex justify-between items-center py-4">
             {/* Logo */}
             <Link to="/" className="flex items-center group">
-              <img src={Logo} alt="Logo" className="h-16" />
+              <img src={Logo} alt="Logo" className="w-20" />
             </Link>
 
             {/* Desktop Navigation */}
