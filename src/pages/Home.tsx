@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Heart, Shield, Clock, Users, Star, ArrowRight, CheckCircle, Phone } from 'lucide-react';
 
+
 const Home: React.FC = () => {
   return (
     <div className="animate-fade-in">
@@ -15,7 +16,7 @@ const Home: React.FC = () => {
           loop
           playsInline
         >
-          <source src="/assets/1080.mp4" type="video/mp4" />
+          <source src="../src/assets/1080.mp4" type="video/mp4" />
           {/* Fallback for browsers that don't support video */}
           Your browser does not support the video tag.
         </video>
